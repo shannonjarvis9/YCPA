@@ -48,8 +48,8 @@ mu{1} = ones(nx{1},ny{1})*c_mu_0;
 %Constant elec prem 
 epi{1} = ones(nx{1},ny{1})*c_eps_0;
 
-%Incusion 
-%epi{1}(125:150,55:95)= c_eps_0*11.3;
+ 
+epi{1}(125:150,55:95)= c_eps_0*11.3;
 
 sigma{1} = zeros(nx{1},ny{1});
 sigmaH{1} = zeros(nx{1},ny{1});
